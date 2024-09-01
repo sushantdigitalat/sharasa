@@ -532,7 +532,7 @@ a:focus {
   margin: 15px 0;
 }
 
-.contact_form-container button {
+/* .contact_form-container button {
   border: none;
   background-color: #45818e;
   color: #fff;
@@ -541,7 +541,7 @@ a:focus {
   border-radius: 30px;
   text-transform: uppercase;
   font-weight: bold;
-}
+} */
 
 .contact-img-box {
   display: flex;
@@ -645,10 +645,62 @@ a:focus {
 
 /* end info section */
 
+/* faqs section */
+
+.faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+.faq .faq-list li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 20px 40px;
+  box-shadow: 0px 8px 30px -13px rgba(6, 0, 49, 0.5);
+}
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  text-decoration: none;
+}
+
+.faq .faq-list i {
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  transition: 1s;
+}
+.faq-title {
+  text-align: center;
+  font-size: 17px;
+  border-bottom: 2px dashed #ffffff;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.faq .faq-list p {
+  padding-top: 5px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.collapsed i.fas.fa-arrow-up {
+}
+.collapsed i.fas.fa-arrow-up {
+  transform: rotate(180deg);
+}
+
+/* end faqs section*/
+
 /* footer section*/
 
 .footer_section {
-  background-color: #d8b109;
+  background-color: #45818e;
   padding: 20px 15px;
   font-family: "Poppins", sans-serif;
 }
