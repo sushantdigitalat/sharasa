@@ -237,32 +237,32 @@ a:focus {
   padding-bottom: 325px;
 }
 
-/* .hero_detail-box {
+/* .hero-detail-box {
   width: 40%;
 } */
 
-.hero_img-container {
+.hero-img-container {
   width: 68%;
   margin-right: -8%;
   margin-top: -5%;
 }
 
-.hero_img-container img {
+.hero-img-container img {
   width: 100%;
 }
 
-.hero_detail-box {
+.hero-detail-box {
   color: #fefeff;
 }
 
-.hero_detail-box h1 {
+.hero-detail-box h1 {
   font-size: 50px;
   color: #fefeff;
   font-weight: 600;
   width: 70%;
 }
 
-.hero_detail-box p {
+.hero-detail-box p {
   margin-top: 20px;
   margin-bottom: 35px;
 }
@@ -270,27 +270,27 @@ a:focus {
 /* end hero section */
 
 /* common style for some sections */
-.common_style > section {
+.common-style > section {
   padding: 80px 0;
 }
 
-.common_style .row {
+.common-style .row {
   align-items: center;
 }
 
-.common_style h3 {
+.common-style h3 {
   font-weight: 600;
   color: #151516;
   font-size: 48px;
 }
 
-.common_style p {
+.common-style p {
   font-weight: 600;
   color: #4e4f50;
   margin: 30px 0 50px 0;
 }
 
-.common_style img {
+.common-style img {
   width: 100%;
 }
 
@@ -442,8 +442,8 @@ a:focus {
   width: 100%;
 }
 
-.client_img-box::before,
-.client_img-box::after {
+.client-img-box::before,
+.client-img-box::after {
   content: "";
   position: absolute;
   width: 100px;
@@ -452,7 +452,7 @@ a:focus {
   background-color: #45818e;
 }
 
-.client_img-box::before {
+.client-img-box::before {
   top: -15px;
   transform: rotate(139deg);
   left: -15px;
@@ -460,7 +460,7 @@ a:focus {
   animation-delay: 0.1s;
 }
 
-.client_img-box::after {
+.client-img-box::after {
   bottom: -15px;
   transform: rotate(142deg);
   right: -15px;
