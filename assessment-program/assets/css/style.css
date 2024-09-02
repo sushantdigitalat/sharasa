@@ -307,7 +307,7 @@ a:focus {
   box-shadow: 0px 8px 30px -13px rgba(6, 0, 49, 0.5); */
   width: 60%;
   margin: auto;
-  padding: 30px;
+  padding: 0 30px;
 }
 
 .title-h5 {
@@ -722,3 +722,168 @@ a:focus {
 }
 
 /* end footer section*/
+
+
+/* responsive css */
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 991.98px) {
+
+
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-detail-box {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .hero-img-container {
+        width: 100%;
+    }
+
+    .hero-container.container {
+        padding-top: 45px;
+    }
+
+    .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff;
+    }
+
+}
+
+
+@media (max-width: 767.98px) {
+
+    .hero-detail-box {
+        text-align: center;
+    }
+
+    .hero-detail-box h1 {
+        width: 100%;
+    }
+
+    .top-container::after {
+        display: none;
+    }
+
+    .top-container::before {
+        background-size: cover;
+    }
+
+    .info_section .col-md-3 {
+        padding: 20px 25px;
+        text-align: center;
+    }
+
+    .common-style img {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .about-detail-box{
+      width: 100%;
+    }
+
+    .hero-h2{
+      margin-top: 2rem;
+    }
+
+    .contact-section .form-control{
+      width: 100%;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .hero-container {
+        padding-bottom: 100px;
+    }
+
+    .client-img-box::before,
+    .client-img-box::after {
+        content: "";
+        position: absolute;
+        width: 75px;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #fdd31d;
+    }
+
+    .client-img-box::before {
+        top: 0;
+        transform: rotate(132deg);
+        left: -15px;
+        animation: beforeanimate 1s;
+        animation-delay: .1s;
+    }
+
+    .client-img-box::after {
+        bottom: 0px;
+        transform: rotate(135deg);
+        right: -15px;
+        animation: afteranimate 1s;
+        animation-delay: .1s;
+    }
+
+    @keyframes beforeanimate {
+        0% {
+            top: 43%;
+            transform: rotate(142deg);
+            left: 31%;
+
+        }
+
+        100% {
+            top: 0px;
+            transform: rotate(132deg);
+            left: -15px;
+        }
+    }
+
+    @keyframes afteranimate {
+        0% {
+            bottom: 46%;
+            transform: rotate(142deg);
+            right: 35%;
+        }
+
+        100% {
+            bottom: 0px;
+            transform: rotate(135deg);
+            right: -15px;
+        }
+    }
+
+    .contact-section {
+        padding: 0px 15px 0 15px;
+    }
+
+    .sub_page .contact-section {
+        padding: 45px 15px;
+    }
+
+    .contact-section input {
+        width: 100%;
+    }
+
+    .info_section .social-box {
+        width: auto;
+    }
+
+    .hero-ul li{
+      text-align: left;
+      width: 100%;
+    }
+    
+}
+
+@media (min-width: 1199.98px) {
+    .container {
+        max-width: 1170px;
+    }
+
+}
+
