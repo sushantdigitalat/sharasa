@@ -726,7 +726,11 @@ a:focus {
 
 /* responsive css */
 
-@media (max-width: 1120px) {}
+@media (max-width: 1119.98px) {
+  .contactimg-box img{
+    width: 100%;
+  }
+}
 
 @media (max-width: 991.98px) {
 
