@@ -35,6 +35,10 @@ body {
   box-shadow: #f9cf2e 0 10px 20px -10px;
 }
 
+.call-to-btn:hover {
+  box-shadow: 0 0 20px #f9cf2e;
+}
+
 .hero-h2 {
   font-weight: bold;
 }
@@ -148,11 +152,11 @@ a:focus {
   box-shadow: none;
 }
 
-.top_container {
+.top-container {
   position: relative;
 }
 
-.top_container::before {
+.top-container::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -164,12 +168,12 @@ a:focus {
   z-index: -1;
 }
 
-.sub_page .top_container::before {
+.sub_page .top-container::before {
   background-color: #f9cf2e;
   background-image: none;
 }
 
-.top_container::after {
+.top-container::after {
   content: "";
   position: absolute;
   width: 75px;
@@ -179,7 +183,7 @@ a:focus {
   background-color: #f9cf2e;
 }
 
-.sub_page .top_container::after {
+.sub_page .top-container::after {
   display: none;
 }
 
@@ -293,7 +297,7 @@ a:focus {
 /* end common style */
 
 /* about section */
-.about_section {
+.about-section {
   background: url(../images/intro-bg.png) no-repeat center center;
   background-size: cover;
   background-attachment: scroll;
@@ -337,7 +341,7 @@ a:focus {
   color: #f9cf2e;
 }
 
-/* .about_section a {
+/* .about-section a {
   background-color: #6ebca8;
   color: #fefeff;
 } */
@@ -370,7 +374,7 @@ a:focus {
   max-height: 84px;
 }
 
-/* .workshop-section a {
+/* .program-section a {
   background-color: #F9CF2E;
   color: #fefeff;
 } */
@@ -404,37 +408,37 @@ a:focus {
   border-radius: 10px;
 }
 
-.client_section {
+.testimonial-section {
   background: url(../images/body-bg.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: scroll;
 }
 
-.client_section h2,
-.client_section h5 {
+.testimonial-section h2,
+.testimonial-section h5 {
   font-weight: 600;
 }
 
-.client_section p {
+.testimonial-section p {
   font-weight: 400;
 }
 
-.client_section h2 {
+.testimonial-section h2 {
   text-align: center;
 }
 
-.client_section h5 {
+.testimonial-section h5 {
   font-size: 24px;
   /* color: #F9CF2E; */
 }
 
-.client_section .row {
+.testimonial-section .row {
   align-items: center;
   padding: 75px 0;
   margin: 0 15px;
 }
 
-.client_section img {
+.testimonial-section img {
   width: 100%;
 }
 
@@ -492,14 +496,14 @@ a:focus {
   }
 }
 
-.client_section .carousel-indicators {
+.testimonial-section .carousel-indicators {
   margin: 0;
   justify-content: flex-end;
   padding-right: 50px;
   bottom: 20px;
 }
 
-.client_section .carousel-indicators li {
+.testimonial-section .carousel-indicators li {
   width: 25px;
   height: 25px;
   background-color: #45818e;
@@ -507,7 +511,7 @@ a:focus {
   opacity: 1;
 }
 
-.client_section .carousel-indicators li.active {
+.testimonial-section .carousel-indicators li.active {
   background-color: #f9cf2e;
 }
 
@@ -515,24 +519,26 @@ a:focus {
 
 /* contact section */
 
-.contact_section {
-  padding: 75px 45px;
-  font-family: "Poppins", sans-serif;
+.contact-section {
+  /* padding: 75px 45px; */
+  background-color: #45818e;
 }
 
-.contact_section .row {
+.contact-section .row {
   align-items: center;
 }
 
-.contact_section input {
+.contact-section .form-control {
   border: none;
   outline: none;
-  border-bottom: 1px solid #000;
+  /* border-bottom: 1px solid #000; */
   width: 90%;
+  height: auto;
   margin: 15px 0;
+  padding: 15px;
 }
 
-/* .contact_form-container button {
+/* .contact-form-container button {
   border: none;
   background-color: #45818e;
   color: #fff;
@@ -553,12 +559,20 @@ a:focus {
   border-radius: 10px;
 }
 
-.contact_section h2 {
+.contact-section h2 {
   font-size: 26px;
   color: #010103;
   font-weight: 600;
   font-family: "Raleway", sans-serif;
   margin-bottom: 35px;
+}
+
+.contactimg-box img{
+  width: 500px;
+  height: 450px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0px 8px 30px -13px rgba(6, 0, 49, 0.5);
 }
 
 /* end contact section */
