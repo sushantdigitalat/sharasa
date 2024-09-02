@@ -173,13 +173,17 @@ a:focus {
   background-image: none;
 }
 
-.top-container::after {
+.top-container .img-responsive{
+  position: relative;
+}
+
+.top-container .img-responsive::after {
   content: "";
   position: absolute;
   width: 75px;
   height: 75px;
-  bottom: 20%;
-  left: 6%;
+  bottom: 40%;
+  left: -6%;
   background-color: #f9cf2e;
 }
 
@@ -730,10 +734,12 @@ a:focus {
   .contactimg-box img{
     width: 100%;
   }
+  .top-container .img-responsive::after{
+    display: none;
+  }
 }
 
 @media (max-width: 991.98px) {
-
 
     .hero-container {
         flex-direction: column;
