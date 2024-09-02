@@ -289,7 +289,6 @@ a:focus {
 }
 
 .common-style p {
-  font-weight: 600;
   color: #4e4f50;
   margin: 30px 0 50px 0;
 }
@@ -679,7 +678,7 @@ a:focus {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: #333333;
   text-decoration: none;
@@ -694,15 +693,17 @@ a:focus {
 }
 
 .faq .faq-list p {
-  padding-top: 5px;
-  margin-bottom: 20px;
-  font-size: 15px;
+  padding-top: 0;
+  margin: 15px 0 10px;
+  font-size: 16px;
 }
 
-.collapsed i.fas.fa-arrow-up {
-}
-.collapsed i.fas.fa-arrow-up {
+i.fa.fa-chevron-down {
   transform: rotate(180deg);
+}
+
+.collapsed i.fa.fa-chevron-down {
+  transform: rotate(0);
 }
 
 /* end faqs section*/
@@ -887,7 +888,7 @@ a:focus {
       text-align: left;
       width: 100%;
     }
-    
+
 }
 
 @media (min-width: 1199.98px) {
