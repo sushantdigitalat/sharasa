@@ -629,6 +629,25 @@
     }
 
 }
+.lh-2-5{
+    line-height: 2.5rem;
+}
+.border-curved{
+    border-radius: 20px;
+}
+.child-can-p{
+    position: relative;
+    padding: 0 0 0 20px;
+    color: #353f4f;
+}
+.child-can-p span{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.child-can-p strong{
+    font-weight: 500;
+}
 /*** Hero Header End ***/
 
 
