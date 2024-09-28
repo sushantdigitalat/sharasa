@@ -127,8 +127,12 @@
 
       $('.owl-carousel').owlCarousel({
         loop: true,
-        margin: 15,
+        margin: 25,
         responsiveClass: true,
+        navText : [
+            '<i class="fas fa-chevron-left fa-fw"></i>',
+            '<i class="fas fa-chevron-right fa-fw"></i>'
+        ],
         responsive: {
           0: {
             items: 1,
