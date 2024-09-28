@@ -130,8 +130,8 @@
         margin: 25,
         responsiveClass: true,
         navText : [
-            '<i class="fas fa-chevron-left fa-fw"></i>',
-            '<i class="fas fa-chevron-right fa-fw"></i>'
+            '<i class="fas fa-arrow-left fa-fw"></i>',
+            '<i class="fas fa-arrow-right fa-fw"></i>'
         ],
         responsive: {
           0: {
@@ -143,7 +143,7 @@
             nav: false
           },
           1000: {
-            items: 3,
+            items: 4,
             nav: true,
             loop: false,
             margin: 20

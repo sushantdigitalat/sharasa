@@ -774,7 +774,7 @@
     line-height: 1.5rem;
 }
 .border-curved {
-  border-radius: 20px;
+  border-radius: 50px;
 }
 .child-can-p {
   position: relative;
@@ -798,9 +798,9 @@
 .service .service-item {
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
 }
-.age-wise .service-item {
+/* .age-wise .service-item {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+  } */
 
 .service .service-item,
 .service .service-item .service-icon,
@@ -821,6 +821,11 @@
 .service .service-item:hover a:hover {
   background: var(--bs-primary) !important;
   color: var(--bs-white);
+}
+
+.w-80{
+    width: 80%;
+    margin: auto;
 }
 
 /*** Service End ***/
